@@ -1,0 +1,8 @@
+composer create-project laravel/laravel
+composer require tcg/voyager
+php artisan voyager:install
+php artisan voyager:install --with-dummy
+php artisan serve
+http://127.0.0.1:8000/admin
+email: admin@admin.com
+password: password
